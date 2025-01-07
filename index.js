@@ -3,7 +3,7 @@ const app = express();
 
 app.get("/",(req,res)=>
 {
-res.json({message:"Hello!! Server is up"});
+res.json({message:"Hello!!! Server is up"});
 })
 
 app.listen(8000,()=>{
